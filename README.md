@@ -12,6 +12,7 @@ The Incident Knowledge Platform is a cybersecurity analytics framework that retr
 
 ## System Architecture 
 
+``
 incident-response-graph/
 │
 ├── data/
@@ -81,7 +82,7 @@ incident-response-graph/
 ├── requirements.txt
 ├── README.md
 └── run_pipeline.py
-
+``
 
 
 
