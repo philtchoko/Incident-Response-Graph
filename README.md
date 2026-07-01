@@ -12,7 +12,7 @@ The Incident Knowledge Platform is a cybersecurity analytics framework that retr
 
 ## System Architecture 
 
-``
+```text
 incident-response-graph/
 │
 ├── data/
@@ -21,7 +21,8 @@ incident-response-graph/
 │   │   ├── incidents.csv
 │   │   ├── alerts.csv
 │   │   ├── vulnerabilities.csv
-│   │   └── threat_intel.csv
+│   │   ├── threat_intel.csv
+│   │   └── mitre_mapping.csv
 │   │
 │   ├── processed/
 │   │   ├── entities.csv
@@ -35,8 +36,8 @@ incident-response-graph/
 │   ├── ingestion/
 │   │   ├── csv_loader.py
 │   │   ├── scanner_loader.py
-│   │   ├── wazuh_loader.py          # future
-│   │   └── security_onion_loader.py # future
+│   │   ├── wazuh_loader.py          # Future
+│   │   └── security_onion_loader.py # Future
 │   │
 │   ├── normalization/
 │   │   ├── normalize_hosts.py
@@ -82,7 +83,18 @@ incident-response-graph/
 ├── requirements.txt
 ├── README.md
 └── run_pipeline.py
-``
+```
+
+## Data Pipeline
+
+
+
+
+## Graph Schema
+
+
+
+## Future usability
 
 
 
