@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Generated project outputs
+data/processed/
+data/database/*.db
+output/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Python environments
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Generated HTML reports
+*.html
