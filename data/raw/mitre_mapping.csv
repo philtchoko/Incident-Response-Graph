@@ -1,0 +1,15 @@
+observable,technique_id,technique_name,tactic
+powershell.exe,T1059,Command and Scripting Interpreter,Execution
+cmd.exe,T1059,Command and Scripting Interpreter,Execution
+rundll32.exe,T1218,System Binary Proxy Execution,Defense Evasion
+regsvr32.exe,T1218,System Binary Proxy Execution,Defense Evasion
+wmic.exe,T1047,Windows Management Instrumentation,Execution
+mimikatz.exe,T1003,OS Credential Dumping,Credential Access
+lsass dump,T1003,OS Credential Dumping,Credential Access
+suspicious dns query,T1071,Application Layer Protocol,Command and Control
+malware download,T1105,Ingress Tool Transfer,Command and Control
+scheduled task,T1053,Scheduled Task/Job,Persistence
+credential phishing,T1566,Phishing,Initial Access
+remote service,T1021,Remote Services,Lateral Movement
+data archive,T1560,Archive Collected Data,Collection
+exfiltration,T1041,Exfiltration Over C2 Channel,Exfiltration

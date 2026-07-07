@@ -1,0 +1,141 @@
+incident_id,title,severity,status,created_at,asset_id,hostname,summary
+INC-0001,Phishing Alert Involving User Credential,High,Closed,5/6/26 17:00,A040,FIN-LAPTOP-40,Phishing Alert Involving User Credential observed on FIN-LAPTOP-40 in the Finance department.
+INC-0002,Suspicious DNS Query,Medium,Closed,6/4/26 11:00,A004,FIN-SRV-04,Suspicious DNS Query observed on FIN-SRV-04 in the Finance department.
+INC-0003,Suspicious DNS Query,Medium,Closed,6/3/26 7:00,A014,EXE-SRV-14,Suspicious DNS Query observed on EXE-SRV-14 in the Executive department.
+INC-0004,Suspicious DNS Query,Medium,Closed,6/3/26 13:00,A006,SAL-LAPTOP-06,Suspicious DNS Query observed on SAL-LAPTOP-06 in the Sales department.
+INC-0005,Remote Service Lateral Movement,High,Investigating,6/14/26 23:00,A041,EXE-LAPTOP-41,Remote Service Lateral Movement observed on EXE-LAPTOP-41 in the Executive department.
+INC-0006,Malware Download Observed,High,Closed,6/13/26 9:00,A012,DB-12,Malware Download Observed observed on DB-12 in the Sales department.
+INC-0007,Phishing Alert Involving User Credential,High,Open,5/26/26 16:00,A032,DB-32,Phishing Alert Involving User Credential observed on DB-32 in the Operations department.
+INC-0008,Malware Download Observed,High,Investigating,5/13/26 12:00,A029,OPS-SRV-29,Malware Download Observed observed on OPS-SRV-29 in the Operations department.
+INC-0009,Suspicious DNS Query,Medium,Closed,6/11/26 14:00,A009,FIN-SRV-09,Suspicious DNS Query observed on FIN-SRV-09 in the Finance department.
+INC-0010,Malware Download Observed,High,Closed,6/6/26 13:00,A007,FIN-LAPTOP-07,Malware Download Observed observed on FIN-LAPTOP-07 in the Finance department.
+INC-0011,Scheduled Task Persistence,Medium,Investigating,5/4/26 2:00,A053,WEB-53,Scheduled Task Persistence observed on WEB-53 in the Sales department.
+INC-0012,Scheduled Task Persistence,Medium,Closed,5/23/26 18:00,A070,FIN-SRV-70,Scheduled Task Persistence observed on FIN-SRV-70 in the Finance department.
+INC-0013,Remote Service Lateral Movement,High,Investigating,5/23/26 5:00,A029,OPS-SRV-29,Remote Service Lateral Movement observed on OPS-SRV-29 in the Operations department.
+INC-0014,Scheduled Task Persistence,Medium,Open,5/3/26 2:00,A023,SAL-LAPTOP-23,Scheduled Task Persistence observed on SAL-LAPTOP-23 in the Sales department.
+INC-0015,Suspicious PowerShell Execution,High,Closed,5/10/26 18:00,A008,DB-08,Suspicious PowerShell Execution observed on DB-08 in the HR department.
+INC-0016,Ransomware-like File Activity,Critical,Closed,5/21/26 4:00,A044,IT-LAPTOP-44,Ransomware-like File Activity observed on IT-LAPTOP-44 in the IT department.
+INC-0017,Remote Service Lateral Movement,High,Investigating,6/6/26 1:00,A001,SAL-LAPTOP-01,Remote Service Lateral Movement observed on SAL-LAPTOP-01 in the Sales department.
+INC-0018,Credential Dumping Suspected,Critical,Closed,6/15/26 21:00,A022,WEB-22,Credential Dumping Suspected observed on WEB-22 in the Finance department.
+INC-0019,Scheduled Task Persistence,Medium,Closed,5/25/26 11:00,A053,WEB-53,Scheduled Task Persistence observed on WEB-53 in the Sales department.
+INC-0020,Scheduled Task Persistence,Medium,Investigating,5/5/26 1:00,A021,IT-LAPTOP-21,Scheduled Task Persistence observed on IT-LAPTOP-21 in the IT department.
+INC-0021,Remote Service Lateral Movement,High,Open,5/11/26 1:00,A022,WEB-22,Remote Service Lateral Movement observed on WEB-22 in the Finance department.
+INC-0022,Ransomware-like File Activity,Critical,Open,5/16/26 3:00,A037,FILE-37,Ransomware-like File Activity observed on FILE-37 in the IT department.
+INC-0023,Scheduled Task Persistence,Medium,Investigating,6/1/26 21:00,A051,VPN-51,Scheduled Task Persistence observed on VPN-51 in the HR department.
+INC-0024,Suspicious PowerShell Execution,High,Closed,5/25/26 16:00,A071,OPS-LAPTOP-71,Suspicious PowerShell Execution observed on OPS-LAPTOP-71 in the Operations department.
+INC-0025,Malware Download Observed,High,Open,5/14/26 6:00,A023,SAL-LAPTOP-23,Malware Download Observed observed on SAL-LAPTOP-23 in the Sales department.
+INC-0026,Remote Service Lateral Movement,High,Open,5/8/26 13:00,A080,OPS-SRV-80,Remote Service Lateral Movement observed on OPS-SRV-80 in the Operations department.
+INC-0027,Phishing Alert Involving User Credential,High,Investigating,5/27/26 8:00,A069,OPS-LAPTOP-69,Phishing Alert Involving User Credential observed on OPS-LAPTOP-69 in the Operations department.
+INC-0028,Ransomware-like File Activity,Critical,Closed,5/18/26 15:00,A039,EXE-LAPTOP-39,Ransomware-like File Activity observed on EXE-LAPTOP-39 in the Executive department.
+INC-0029,Phishing Alert Involving User Credential,High,Closed,5/18/26 23:00,A057,EXE-LAPTOP-57,Phishing Alert Involving User Credential observed on EXE-LAPTOP-57 in the Executive department.
+INC-0030,Suspicious PowerShell Execution,High,Open,6/2/26 5:00,A048,FIN-LAPTOP-48,Suspicious PowerShell Execution observed on FIN-LAPTOP-48 in the Finance department.
+INC-0031,Suspicious PowerShell Execution,High,Closed,5/16/26 11:00,A016,SAL-LAPTOP-16,Suspicious PowerShell Execution observed on SAL-LAPTOP-16 in the Sales department.
+INC-0032,Suspicious DNS Query,Medium,Closed,5/18/26 20:00,A029,OPS-SRV-29,Suspicious DNS Query observed on OPS-SRV-29 in the Operations department.
+INC-0033,Suspicious PowerShell Execution,High,Closed,5/15/26 8:00,A023,SAL-LAPTOP-23,Suspicious PowerShell Execution observed on SAL-LAPTOP-23 in the Sales department.
+INC-0034,Credential Dumping Suspected,Critical,Closed,5/1/26 16:00,A051,VPN-51,Credential Dumping Suspected observed on VPN-51 in the HR department.
+INC-0035,Ransomware-like File Activity,Critical,Closed,5/13/26 4:00,A034,OPS-LAPTOP-34,Ransomware-like File Activity observed on OPS-LAPTOP-34 in the Operations department.
+INC-0036,Ransomware-like File Activity,Critical,Closed,5/17/26 13:00,A064,ENG-LAPTOP-64,Ransomware-like File Activity observed on ENG-LAPTOP-64 in the Engineering department.
+INC-0037,Scheduled Task Persistence,Medium,Closed,6/12/26 11:00,A029,OPS-SRV-29,Scheduled Task Persistence observed on OPS-SRV-29 in the Operations department.
+INC-0038,Credential Dumping Suspected,Critical,Investigating,5/15/26 11:00,A043,OPS-LAPTOP-43,Credential Dumping Suspected observed on OPS-LAPTOP-43 in the Operations department.
+INC-0039,Scheduled Task Persistence,Medium,Open,5/13/26 16:00,A010,EXE-LAPTOP-10,Scheduled Task Persistence observed on EXE-LAPTOP-10 in the Executive department.
+INC-0040,Scheduled Task Persistence,Medium,Closed,5/18/26 6:00,A001,SAL-LAPTOP-01,Scheduled Task Persistence observed on SAL-LAPTOP-01 in the Sales department.
+INC-0041,Suspicious PowerShell Execution,High,Investigating,5/3/26 17:00,A050,OPS-LAPTOP-50,Suspicious PowerShell Execution observed on OPS-LAPTOP-50 in the Operations department.
+INC-0042,Remote Service Lateral Movement,High,Investigating,6/2/26 18:00,A014,EXE-SRV-14,Remote Service Lateral Movement observed on EXE-SRV-14 in the Executive department.
+INC-0043,Phishing Alert Involving User Credential,High,Closed,5/28/26 21:00,A067,HR-LAPTOP-67,Phishing Alert Involving User Credential observed on HR-LAPTOP-67 in the HR department.
+INC-0044,Malware Download Observed,High,Closed,5/8/26 11:00,A076,HR-LAPTOP-76,Malware Download Observed observed on HR-LAPTOP-76 in the HR department.
+INC-0045,Suspicious PowerShell Execution,High,Closed,6/12/26 3:00,A007,FIN-LAPTOP-07,Suspicious PowerShell Execution observed on FIN-LAPTOP-07 in the Finance department.
+INC-0046,Ransomware-like File Activity,Critical,Investigating,5/31/26 22:00,A016,SAL-LAPTOP-16,Ransomware-like File Activity observed on SAL-LAPTOP-16 in the Sales department.
+INC-0047,Malware Download Observed,High,Closed,5/27/26 3:00,A035,HR-SRV-35,Malware Download Observed observed on HR-SRV-35 in the HR department.
+INC-0048,Suspicious DNS Query,Medium,Closed,5/17/26 16:00,A078,OPS-LAPTOP-78,Suspicious DNS Query observed on OPS-LAPTOP-78 in the Operations department.
+INC-0049,Malware Download Observed,High,Open,5/6/26 16:00,A064,ENG-LAPTOP-64,Malware Download Observed observed on ENG-LAPTOP-64 in the Engineering department.
+INC-0050,Ransomware-like File Activity,Critical,Open,5/30/26 1:00,A038,IT-LAPTOP-38,Ransomware-like File Activity observed on IT-LAPTOP-38 in the IT department.
+INC-0051,Malware Download Observed,High,Investigating,6/12/26 20:00,A002,SAL-LAPTOP-02,Malware Download Observed observed on SAL-LAPTOP-02 in the Sales department.
+INC-0052,Remote Service Lateral Movement,High,Open,6/11/26 5:00,A062,IT-SRV-62,Remote Service Lateral Movement observed on IT-SRV-62 in the IT department.
+INC-0053,Scheduled Task Persistence,Medium,Closed,6/6/26 21:00,A076,HR-LAPTOP-76,Scheduled Task Persistence observed on HR-LAPTOP-76 in the HR department.
+INC-0054,Credential Dumping Suspected,Critical,Closed,5/28/26 21:00,A044,IT-LAPTOP-44,Credential Dumping Suspected observed on IT-LAPTOP-44 in the IT department.
+INC-0055,Suspicious DNS Query,Medium,Open,5/22/26 8:00,A042,FILE-42,Suspicious DNS Query observed on FILE-42 in the Sales department.
+INC-0056,Phishing Alert Involving User Credential,High,Closed,5/8/26 15:00,A058,ENG-SRV-58,Phishing Alert Involving User Credential observed on ENG-SRV-58 in the Engineering department.
+INC-0057,Ransomware-like File Activity,Critical,Investigating,6/2/26 17:00,A012,DB-12,Ransomware-like File Activity observed on DB-12 in the Sales department.
+INC-0058,Suspicious PowerShell Execution,High,Closed,5/22/26 11:00,A029,OPS-SRV-29,Suspicious PowerShell Execution observed on OPS-SRV-29 in the Operations department.
+INC-0059,Suspicious DNS Query,Medium,Closed,5/30/26 6:00,A051,VPN-51,Suspicious DNS Query observed on VPN-51 in the HR department.
+INC-0060,Scheduled Task Persistence,Medium,Closed,5/30/26 21:00,A016,SAL-LAPTOP-16,Scheduled Task Persistence observed on SAL-LAPTOP-16 in the Sales department.
+INC-0061,Malware Download Observed,High,Investigating,5/9/26 3:00,A023,SAL-LAPTOP-23,Malware Download Observed observed on SAL-LAPTOP-23 in the Sales department.
+INC-0062,Remote Service Lateral Movement,High,Closed,6/8/26 22:00,A018,SAL-LAPTOP-18,Remote Service Lateral Movement observed on SAL-LAPTOP-18 in the Sales department.
+INC-0063,Malware Download Observed,High,Closed,6/2/26 17:00,A017,OPS-LAPTOP-17,Malware Download Observed observed on OPS-LAPTOP-17 in the Operations department.
+INC-0064,Credential Dumping Suspected,Critical,Open,5/2/26 12:00,A002,SAL-LAPTOP-02,Credential Dumping Suspected observed on SAL-LAPTOP-02 in the Sales department.
+INC-0065,Malware Download Observed,High,Closed,5/4/26 22:00,A033,FIN-LAPTOP-33,Malware Download Observed observed on FIN-LAPTOP-33 in the Finance department.
+INC-0066,Remote Service Lateral Movement,High,Closed,5/16/26 16:00,A029,OPS-SRV-29,Remote Service Lateral Movement observed on OPS-SRV-29 in the Operations department.
+INC-0067,Suspicious DNS Query,Medium,Closed,6/10/26 22:00,A057,EXE-LAPTOP-57,Suspicious DNS Query observed on EXE-LAPTOP-57 in the Executive department.
+INC-0068,Remote Service Lateral Movement,High,Investigating,5/3/26 13:00,A016,SAL-LAPTOP-16,Remote Service Lateral Movement observed on SAL-LAPTOP-16 in the Sales department.
+INC-0069,Ransomware-like File Activity,Critical,Closed,6/1/26 18:00,A079,FIN-LAPTOP-79,Ransomware-like File Activity observed on FIN-LAPTOP-79 in the Finance department.
+INC-0070,Credential Dumping Suspected,Critical,Closed,6/2/26 5:00,A024,IT-SRV-24,Credential Dumping Suspected observed on IT-SRV-24 in the IT department.
+INC-0071,Suspicious DNS Query,Medium,Closed,5/3/26 21:00,A079,FIN-LAPTOP-79,Suspicious DNS Query observed on FIN-LAPTOP-79 in the Finance department.
+INC-0072,Malware Download Observed,High,Open,6/4/26 17:00,A013,WEB-13,Malware Download Observed observed on WEB-13 in the HR department.
+INC-0073,Suspicious DNS Query,Medium,Closed,6/4/26 22:00,A014,EXE-SRV-14,Suspicious DNS Query observed on EXE-SRV-14 in the Executive department.
+INC-0074,Remote Service Lateral Movement,High,Investigating,5/21/26 0:00,A052,WEB-52,Remote Service Lateral Movement observed on WEB-52 in the IT department.
+INC-0075,Suspicious PowerShell Execution,High,Investigating,6/14/26 2:00,A009,FIN-SRV-09,Suspicious PowerShell Execution observed on FIN-SRV-09 in the Finance department.
+INC-0076,Scheduled Task Persistence,Medium,Closed,5/25/26 12:00,A037,FILE-37,Scheduled Task Persistence observed on FILE-37 in the IT department.
+INC-0077,Ransomware-like File Activity,Critical,Investigating,6/10/26 4:00,A070,FIN-SRV-70,Ransomware-like File Activity observed on FIN-SRV-70 in the Finance department.
+INC-0078,Suspicious DNS Query,Medium,Closed,5/27/26 20:00,A045,SAL-LAPTOP-45,Suspicious DNS Query observed on SAL-LAPTOP-45 in the Sales department.
+INC-0079,Credential Dumping Suspected,Critical,Open,5/19/26 21:00,A071,OPS-LAPTOP-71,Credential Dumping Suspected observed on OPS-LAPTOP-71 in the Operations department.
+INC-0080,Suspicious DNS Query,Medium,Closed,5/7/26 9:00,A017,OPS-LAPTOP-17,Suspicious DNS Query observed on OPS-LAPTOP-17 in the Operations department.
+INC-0081,Remote Service Lateral Movement,High,Investigating,5/11/26 0:00,A041,EXE-LAPTOP-41,Remote Service Lateral Movement observed on EXE-LAPTOP-41 in the Executive department.
+INC-0082,Scheduled Task Persistence,Medium,Closed,5/29/26 11:00,A062,IT-SRV-62,Scheduled Task Persistence observed on IT-SRV-62 in the IT department.
+INC-0083,Suspicious DNS Query,Medium,Investigating,5/3/26 17:00,A076,HR-LAPTOP-76,Suspicious DNS Query observed on HR-LAPTOP-76 in the HR department.
+INC-0084,Malware Download Observed,High,Investigating,5/29/26 5:00,A066,DB-66,Malware Download Observed observed on DB-66 in the Sales department.
+INC-0085,Suspicious DNS Query,Medium,Investigating,5/3/26 21:00,A048,FIN-LAPTOP-48,Suspicious DNS Query observed on FIN-LAPTOP-48 in the Finance department.
+INC-0086,Phishing Alert Involving User Credential,High,Closed,6/7/26 20:00,A049,DB-49,Phishing Alert Involving User Credential observed on DB-49 in the Operations department.
+INC-0087,Phishing Alert Involving User Credential,High,Closed,6/1/26 15:00,A046,ENG-LAPTOP-46,Phishing Alert Involving User Credential observed on ENG-LAPTOP-46 in the Engineering department.
+INC-0088,Ransomware-like File Activity,Critical,Investigating,5/14/26 4:00,A010,EXE-LAPTOP-10,Ransomware-like File Activity observed on EXE-LAPTOP-10 in the Executive department.
+INC-0089,Remote Service Lateral Movement,High,Open,5/2/26 7:00,A021,IT-LAPTOP-21,Remote Service Lateral Movement observed on IT-LAPTOP-21 in the IT department.
+INC-0090,Suspicious PowerShell Execution,High,Closed,6/12/26 9:00,A077,OPS-LAPTOP-77,Suspicious PowerShell Execution observed on OPS-LAPTOP-77 in the Operations department.
+INC-0091,Ransomware-like File Activity,Critical,Closed,5/11/26 23:00,A024,IT-SRV-24,Ransomware-like File Activity observed on IT-SRV-24 in the IT department.
+INC-0092,Suspicious PowerShell Execution,High,Closed,6/4/26 16:00,A061,HR-LAPTOP-61,Suspicious PowerShell Execution observed on HR-LAPTOP-61 in the HR department.
+INC-0093,Remote Service Lateral Movement,High,Investigating,6/3/26 13:00,A001,SAL-LAPTOP-01,Remote Service Lateral Movement observed on SAL-LAPTOP-01 in the Sales department.
+INC-0094,Phishing Alert Involving User Credential,High,Closed,6/7/26 23:00,A049,DB-49,Phishing Alert Involving User Credential observed on DB-49 in the Operations department.
+INC-0095,Remote Service Lateral Movement,High,Open,5/17/26 6:00,A077,OPS-LAPTOP-77,Remote Service Lateral Movement observed on OPS-LAPTOP-77 in the Operations department.
+INC-0096,Suspicious DNS Query,Medium,Closed,6/14/26 10:00,A049,DB-49,Suspicious DNS Query observed on DB-49 in the Operations department.
+INC-0097,Phishing Alert Involving User Credential,High,Closed,6/9/26 8:00,A055,HR-LAPTOP-55,Phishing Alert Involving User Credential observed on HR-LAPTOP-55 in the HR department.
+INC-0098,Remote Service Lateral Movement,High,Closed,5/22/26 17:00,A028,WEB-28,Remote Service Lateral Movement observed on WEB-28 in the Executive department.
+INC-0099,Remote Service Lateral Movement,High,Investigating,5/6/26 2:00,A061,HR-LAPTOP-61,Remote Service Lateral Movement observed on HR-LAPTOP-61 in the HR department.
+INC-0100,Suspicious PowerShell Execution,High,Closed,5/13/26 21:00,A057,EXE-LAPTOP-57,Suspicious PowerShell Execution observed on EXE-LAPTOP-57 in the Executive department.
+INC-0101,Ransomware-like File Activity,Critical,Closed,5/26/26 11:00,A012,DB-12,Ransomware-like File Activity observed on DB-12 in the Sales department.
+INC-0102,Ransomware-like File Activity,Critical,Closed,5/12/26 13:00,A001,SAL-LAPTOP-01,Ransomware-like File Activity observed on SAL-LAPTOP-01 in the Sales department.
+INC-0103,Ransomware-like File Activity,Critical,Closed,6/14/26 14:00,A033,FIN-LAPTOP-33,Ransomware-like File Activity observed on FIN-LAPTOP-33 in the Finance department.
+INC-0104,Suspicious PowerShell Execution,High,Investigating,6/14/26 8:00,A046,ENG-LAPTOP-46,Suspicious PowerShell Execution observed on ENG-LAPTOP-46 in the Engineering department.
+INC-0105,Scheduled Task Persistence,Medium,Investigating,5/21/26 11:00,A023,SAL-LAPTOP-23,Scheduled Task Persistence observed on SAL-LAPTOP-23 in the Sales department.
+INC-0106,Credential Dumping Suspected,Critical,Closed,6/13/26 21:00,A016,SAL-LAPTOP-16,Credential Dumping Suspected observed on SAL-LAPTOP-16 in the Sales department.
+INC-0107,Phishing Alert Involving User Credential,High,Closed,6/1/26 18:00,A048,FIN-LAPTOP-48,Phishing Alert Involving User Credential observed on FIN-LAPTOP-48 in the Finance department.
+INC-0108,Scheduled Task Persistence,Medium,Open,5/21/26 22:00,A067,HR-LAPTOP-67,Scheduled Task Persistence observed on HR-LAPTOP-67 in the HR department.
+INC-0109,Phishing Alert Involving User Credential,High,Closed,5/12/26 15:00,A044,IT-LAPTOP-44,Phishing Alert Involving User Credential observed on IT-LAPTOP-44 in the IT department.
+INC-0110,Suspicious PowerShell Execution,High,Closed,5/12/26 13:00,A061,HR-LAPTOP-61,Suspicious PowerShell Execution observed on HR-LAPTOP-61 in the HR department.
+INC-0111,Credential Dumping Suspected,Critical,Investigating,5/29/26 23:00,A061,HR-LAPTOP-61,Credential Dumping Suspected observed on HR-LAPTOP-61 in the HR department.
+INC-0112,Ransomware-like File Activity,Critical,Closed,5/23/26 10:00,A023,SAL-LAPTOP-23,Ransomware-like File Activity observed on SAL-LAPTOP-23 in the Sales department.
+INC-0113,Malware Download Observed,High,Investigating,5/22/26 7:00,A011,DC-11,Malware Download Observed observed on DC-11 in the Finance department.
+INC-0114,Suspicious PowerShell Execution,High,Investigating,5/9/26 23:00,A024,IT-SRV-24,Suspicious PowerShell Execution observed on IT-SRV-24 in the IT department.
+INC-0115,Remote Service Lateral Movement,High,Open,6/3/26 2:00,A004,FIN-SRV-04,Remote Service Lateral Movement observed on FIN-SRV-04 in the Finance department.
+INC-0116,Malware Download Observed,High,Closed,5/2/26 1:00,A017,OPS-LAPTOP-17,Malware Download Observed observed on OPS-LAPTOP-17 in the Operations department.
+INC-0117,Remote Service Lateral Movement,High,Closed,6/3/26 20:00,A073,FILE-73,Remote Service Lateral Movement observed on FILE-73 in the Finance department.
+INC-0118,Malware Download Observed,High,Closed,5/23/26 9:00,A067,HR-LAPTOP-67,Malware Download Observed observed on HR-LAPTOP-67 in the HR department.
+INC-0119,Remote Service Lateral Movement,High,Investigating,5/19/26 19:00,A002,SAL-LAPTOP-02,Remote Service Lateral Movement observed on SAL-LAPTOP-02 in the Sales department.
+INC-0120,Remote Service Lateral Movement,High,Closed,5/16/26 5:00,A056,ENG-LAPTOP-56,Remote Service Lateral Movement observed on ENG-LAPTOP-56 in the Engineering department.
+INC-0121,Malware Download Observed,High,Closed,5/19/26 3:00,A024,IT-SRV-24,Malware Download Observed observed on IT-SRV-24 in the IT department.
+INC-0122,Malware Download Observed,High,Investigating,5/1/26 15:00,A012,DB-12,Malware Download Observed observed on DB-12 in the Sales department.
+INC-0123,Suspicious DNS Query,Medium,Closed,5/17/26 12:00,A024,IT-SRV-24,Suspicious DNS Query observed on IT-SRV-24 in the IT department.
+INC-0124,Suspicious DNS Query,Medium,Closed,5/30/26 23:00,A005,ENG-LAPTOP-05,Suspicious DNS Query observed on ENG-LAPTOP-05 in the Engineering department.
+INC-0125,Ransomware-like File Activity,Critical,Closed,5/13/26 11:00,A062,IT-SRV-62,Ransomware-like File Activity observed on IT-SRV-62 in the IT department.
+INC-0126,Suspicious DNS Query,Medium,Closed,5/1/26 1:00,A051,VPN-51,Suspicious DNS Query observed on VPN-51 in the HR department.
+INC-0127,Suspicious DNS Query,Medium,Investigating,5/2/26 22:00,A057,EXE-LAPTOP-57,Suspicious DNS Query observed on EXE-LAPTOP-57 in the Executive department.
+INC-0128,Phishing Alert Involving User Credential,High,Closed,5/21/26 23:00,A070,FIN-SRV-70,Phishing Alert Involving User Credential observed on FIN-SRV-70 in the Finance department.
+INC-0129,Phishing Alert Involving User Credential,High,Investigating,6/9/26 7:00,A003,IT-LAPTOP-03,Phishing Alert Involving User Credential observed on IT-LAPTOP-03 in the IT department.
+INC-0130,Malware Download Observed,High,Investigating,6/9/26 9:00,A064,ENG-LAPTOP-64,Malware Download Observed observed on ENG-LAPTOP-64 in the Engineering department.
+INC-0131,Remote Service Lateral Movement,High,Closed,6/12/26 15:00,A074,OPS-LAPTOP-74,Remote Service Lateral Movement observed on OPS-LAPTOP-74 in the Operations department.
+INC-0132,Phishing Alert Involving User Credential,High,Closed,6/5/26 23:00,A008,DB-08,Phishing Alert Involving User Credential observed on DB-08 in the HR department.
+INC-0133,Remote Service Lateral Movement,High,Closed,5/7/26 20:00,A072,WEB-72,Remote Service Lateral Movement observed on WEB-72 in the Executive department.
+INC-0134,Remote Service Lateral Movement,High,Closed,6/10/26 13:00,A048,FIN-LAPTOP-48,Remote Service Lateral Movement observed on FIN-LAPTOP-48 in the Finance department.
+INC-0135,Ransomware-like File Activity,Critical,Closed,6/8/26 0:00,A005,ENG-LAPTOP-05,Ransomware-like File Activity observed on ENG-LAPTOP-05 in the Engineering department.
+INC-0136,Suspicious PowerShell Execution,High,Investigating,5/30/26 11:00,A013,WEB-13,Suspicious PowerShell Execution observed on WEB-13 in the HR department.
+INC-0137,Scheduled Task Persistence,Medium,Closed,5/12/26 15:00,A042,FILE-42,Scheduled Task Persistence observed on FILE-42 in the Sales department.
+INC-0138,Credential Dumping Suspected,Critical,Investigating,5/4/26 10:00,A049,DB-49,Credential Dumping Suspected observed on DB-49 in the Operations department.
+INC-0139,Malware Download Observed,High,Closed,5/4/26 21:00,A029,OPS-SRV-29,Malware Download Observed observed on OPS-SRV-29 in the Operations department.
+INC-0140,Remote Service Lateral Movement,High,Closed,6/14/26 4:00,A065,HR-SRV-65,Remote Service Lateral Movement observed on HR-SRV-65 in the HR department.

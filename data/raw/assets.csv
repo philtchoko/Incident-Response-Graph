@@ -1,0 +1,81 @@
+asset_id,hostname,department,asset_type,criticality,internet_facing,operating_system,owner
+A001,SAL-LAPTOP-01,Sales,Laptop,High,False,Windows Server 2019,sales_team
+A002,SAL-LAPTOP-02,Sales,Laptop,High,False,macOS,sales_team
+A003,IT-LAPTOP-03,IT,Laptop,Low,False,macOS,it_team
+A004,FIN-SRV-04,Finance,Server,High,False,Ubuntu 22.04,finance_team
+A005,ENG-LAPTOP-05,Engineering,Laptop,Medium,False,Windows Server 2019,engineering_team
+A006,SAL-LAPTOP-06,Sales,Laptop,Medium,False,Windows Server 2022,sales_team
+A007,FIN-LAPTOP-07,Finance,Laptop,Low,False,macOS,finance_team
+A008,DB-08,HR,Database,High,False,Ubuntu 22.04,hr_team
+A009,FIN-SRV-09,Finance,Server,High,False,Windows Server 2022,finance_team
+A010,EXE-LAPTOP-10,Executive,Laptop,Low,False,Windows Server 2022,executive_team
+A011,DC-11,Finance,Domain Controller,Critical,False,Ubuntu 22.04,finance_team
+A012,DB-12,Sales,Database,Medium,False,Debian 12,sales_team
+A013,WEB-13,HR,Web Server,High,True,Windows 11,hr_team
+A014,EXE-SRV-14,Executive,Server,Medium,False,Ubuntu 22.04,executive_team
+A015,IT-LAPTOP-15,IT,Laptop,Critical,False,Windows Server 2019,it_team
+A016,SAL-LAPTOP-16,Sales,Laptop,High,True,Windows 11,sales_team
+A017,OPS-LAPTOP-17,Operations,Laptop,Medium,False,macOS,operations_team
+A018,SAL-LAPTOP-18,Sales,Laptop,High,False,Debian 12,sales_team
+A019,IT-LAPTOP-19,IT,Laptop,Low,False,macOS,it_team
+A020,WEB-20,HR,Web Server,Medium,True,macOS,hr_team
+A021,IT-LAPTOP-21,IT,Laptop,Critical,False,Ubuntu 22.04,it_team
+A022,WEB-22,Finance,Web Server,Critical,True,Windows Server 2019,finance_team
+A023,SAL-LAPTOP-23,Sales,Laptop,High,False,Ubuntu 22.04,sales_team
+A024,IT-SRV-24,IT,Server,Medium,False,macOS,it_team
+A025,FILE-25,Operations,File Server,High,False,macOS,operations_team
+A026,OPS-LAPTOP-26,Operations,Laptop,High,False,Ubuntu 22.04,operations_team
+A027,ENG-LAPTOP-27,Engineering,Laptop,Critical,False,Windows Server 2022,engineering_team
+A028,WEB-28,Executive,Web Server,Medium,True,Windows 11,executive_team
+A029,OPS-SRV-29,Operations,Server,High,False,Windows Server 2019,operations_team
+A030,ENG-LAPTOP-30,Engineering,Laptop,Medium,False,macOS,engineering_team
+A031,FIN-SRV-31,Finance,Server,Medium,False,Windows Server 2022,finance_team
+A032,DB-32,Operations,Database,Medium,False,macOS,operations_team
+A033,FIN-LAPTOP-33,Finance,Laptop,Medium,True,macOS,finance_team
+A034,OPS-LAPTOP-34,Operations,Laptop,High,False,Windows Server 2019,operations_team
+A035,HR-SRV-35,HR,Server,High,False,macOS,hr_team
+A036,WEB-36,Operations,Web Server,Medium,True,Windows Server 2022,operations_team
+A037,FILE-37,IT,File Server,High,False,macOS,it_team
+A038,IT-LAPTOP-38,IT,Laptop,Medium,False,macOS,it_team
+A039,EXE-LAPTOP-39,Executive,Laptop,Medium,True,Debian 12,executive_team
+A040,FIN-LAPTOP-40,Finance,Laptop,Critical,False,Windows 11,finance_team
+A041,EXE-LAPTOP-41,Executive,Laptop,High,False,Windows Server 2019,executive_team
+A042,FILE-42,Sales,File Server,High,False,Ubuntu 22.04,sales_team
+A043,OPS-LAPTOP-43,Operations,Laptop,Low,False,Windows Server 2022,operations_team
+A044,IT-LAPTOP-44,IT,Laptop,Critical,True,Debian 12,it_team
+A045,SAL-LAPTOP-45,Sales,Laptop,Medium,False,Windows 11,sales_team
+A046,ENG-LAPTOP-46,Engineering,Laptop,Medium,False,Windows Server 2019,engineering_team
+A047,HR-LAPTOP-47,HR,Laptop,Critical,True,macOS,hr_team
+A048,FIN-LAPTOP-48,Finance,Laptop,Critical,False,Windows 11,finance_team
+A049,DB-49,Operations,Database,Medium,False,Windows Server 2019,operations_team
+A050,OPS-LAPTOP-50,Operations,Laptop,Low,False,Ubuntu 22.04,operations_team
+A051,VPN-51,HR,VPN Gateway,High,True,Windows Server 2022,hr_team
+A052,WEB-52,IT,Web Server,High,True,macOS,it_team
+A053,WEB-53,Sales,Web Server,Medium,True,Windows Server 2022,sales_team
+A054,FILE-54,Engineering,File Server,High,False,Debian 12,engineering_team
+A055,HR-LAPTOP-55,HR,Laptop,High,False,macOS,hr_team
+A056,ENG-LAPTOP-56,Engineering,Laptop,Medium,False,Windows 11,engineering_team
+A057,EXE-LAPTOP-57,Executive,Laptop,Critical,False,macOS,executive_team
+A058,ENG-SRV-58,Engineering,Server,Low,False,Debian 12,engineering_team
+A059,EXE-SRV-59,Executive,Server,Medium,False,Debian 12,executive_team
+A060,SAL-LAPTOP-60,Sales,Laptop,Medium,False,Debian 12,sales_team
+A061,HR-LAPTOP-61,HR,Laptop,Critical,False,Windows 11,hr_team
+A062,IT-SRV-62,IT,Server,High,False,macOS,it_team
+A063,ENG-SRV-63,Engineering,Server,Low,False,Windows 11,engineering_team
+A064,ENG-LAPTOP-64,Engineering,Laptop,Medium,False,Debian 12,engineering_team
+A065,HR-SRV-65,HR,Server,Critical,False,Windows 11,hr_team
+A066,DB-66,Sales,Database,Medium,False,Windows Server 2019,sales_team
+A067,HR-LAPTOP-67,HR,Laptop,Low,False,Windows Server 2022,hr_team
+A068,HR-SRV-68,HR,Server,High,False,Debian 12,hr_team
+A069,OPS-LAPTOP-69,Operations,Laptop,Medium,False,Windows 11,operations_team
+A070,FIN-SRV-70,Finance,Server,High,True,Windows Server 2022,finance_team
+A071,OPS-LAPTOP-71,Operations,Laptop,Critical,False,Ubuntu 22.04,operations_team
+A072,WEB-72,Executive,Web Server,High,True,Windows 11,executive_team
+A073,FILE-73,Finance,File Server,High,False,Windows 11,finance_team
+A074,OPS-LAPTOP-74,Operations,Laptop,High,False,Windows 11,operations_team
+A075,HR-LAPTOP-75,HR,Laptop,Critical,False,Windows 11,hr_team
+A076,HR-LAPTOP-76,HR,Laptop,Medium,False,macOS,hr_team
+A077,OPS-LAPTOP-77,Operations,Laptop,High,False,Windows Server 2019,operations_team
+A078,OPS-LAPTOP-78,Operations,Laptop,High,False,Ubuntu 22.04,operations_team
+A079,FIN-LAPTOP-79,Finance,Laptop,Critical,False,Ubuntu 22.04,finance_team
+A080,OPS-SRV-80,Operations,Server,High,False,Windows Server 2019,operations_team

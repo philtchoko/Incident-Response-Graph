@@ -1,0 +1,134 @@
+asset_id,hostname,cve_id,severity,cvss_score,kev_status,description
+A037,FILE-37,CVE-2021-44228,Critical,10.0,True,Apache Log4j remote code execution vulnerability.
+A037,FILE-37,CVE-2023-72176,High,7.3,True,Synthetic vulnerability record for MVP graph testing.
+A037,FILE-37,CVE-2023-3052,Critical,9.7,False,Synthetic vulnerability record for MVP graph testing.
+A003,IT-LAPTOP-03,CVE-2023-22292,High,7.3,False,Synthetic vulnerability record for MVP graph testing.
+A003,IT-LAPTOP-03,CVE-2025-44480,Medium,6.3,False,Synthetic vulnerability record for MVP graph testing.
+A003,IT-LAPTOP-03,CVE-2021-66639,High,8.4,False,Synthetic vulnerability record for MVP graph testing.
+A003,IT-LAPTOP-03,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A065,HR-SRV-65,CVE-2025-79067,Medium,6.3,False,Synthetic vulnerability record for MVP graph testing.
+A056,ENG-LAPTOP-56,CVE-2024-65304,Medium,5.3,False,Synthetic vulnerability record for MVP graph testing.
+A023,SAL-LAPTOP-23,CVE-2025-87595,Medium,6.2,False,Synthetic vulnerability record for MVP graph testing.
+A023,SAL-LAPTOP-23,CVE-2022-94468,Medium,4.4,False,Synthetic vulnerability record for MVP graph testing.
+A023,SAL-LAPTOP-23,CVE-2022-97948,Medium,6.3,False,Synthetic vulnerability record for MVP graph testing.
+A023,SAL-LAPTOP-23,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A014,EXE-SRV-14,CVE-2023-14399,Medium,4.8,False,Synthetic vulnerability record for MVP graph testing.
+A014,EXE-SRV-14,CVE-2025-68166,Medium,6.4,True,Synthetic vulnerability record for MVP graph testing.
+A014,EXE-SRV-14,CVE-2021-79240,High,7.5,False,Synthetic vulnerability record for MVP graph testing.
+A014,EXE-SRV-14,CVE-2023-55238,Medium,6.3,True,Synthetic vulnerability record for MVP graph testing.
+A013,WEB-13,CVE-2022-90825,Medium,6.2,False,Synthetic vulnerability record for MVP graph testing.
+A013,WEB-13,CVE-2024-20127,Medium,4.4,False,Synthetic vulnerability record for MVP graph testing.
+A068,HR-SRV-68,CVE-2021-48333,Medium,5.5,False,Synthetic vulnerability record for MVP graph testing.
+A068,HR-SRV-68,CVE-2025-81828,Medium,5.2,True,Synthetic vulnerability record for MVP graph testing.
+A068,HR-SRV-68,CVE-2024-44544,Critical,9.0,False,Synthetic vulnerability record for MVP graph testing.
+A068,HR-SRV-68,CVE-2024-44874,Medium,6.5,False,Synthetic vulnerability record for MVP graph testing.
+A020,WEB-20,CVE-2025-92133,Medium,5.2,False,Synthetic vulnerability record for MVP graph testing.
+A020,WEB-20,CVE-2023-39200,High,8.3,False,Synthetic vulnerability record for MVP graph testing.
+A031,FIN-SRV-31,CVE-2023-52502,Medium,6.2,False,Synthetic vulnerability record for MVP graph testing.
+A031,FIN-SRV-31,CVE-2024-6387,High,8.1,False,OpenSSH regreSSHion vulnerability.
+A025,FILE-25,CVE-2025-4527,Critical,9.6,False,Synthetic vulnerability record for MVP graph testing.
+A025,FILE-25,CVE-2024-39185,High,8.9,True,Synthetic vulnerability record for MVP graph testing.
+A073,FILE-73,CVE-2022-84012,Medium,5.8,False,Synthetic vulnerability record for MVP graph testing.
+A073,FILE-73,CVE-2023-23397,Critical,9.8,True,Microsoft Outlook privilege escalation vulnerability.
+A073,FILE-73,CVE-2021-59860,Critical,9.8,False,Synthetic vulnerability record for MVP graph testing.
+A073,FILE-73,CVE-2025-91663,Medium,6.5,True,Synthetic vulnerability record for MVP graph testing.
+A033,FIN-LAPTOP-33,CVE-2025-78833,High,7.8,True,Synthetic vulnerability record for MVP graph testing.
+A033,FIN-LAPTOP-33,CVE-2023-22802,High,7.8,True,Synthetic vulnerability record for MVP graph testing.
+A033,FIN-LAPTOP-33,CVE-2024-99655,Medium,6.0,False,Synthetic vulnerability record for MVP graph testing.
+A046,ENG-LAPTOP-46,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A035,HR-SRV-35,CVE-2025-74137,High,7.4,False,Synthetic vulnerability record for MVP graph testing.
+A035,HR-SRV-35,CVE-2024-61694,High,8.6,False,Synthetic vulnerability record for MVP graph testing.
+A051,VPN-51,CVE-2021-64277,Medium,4.6,False,Synthetic vulnerability record for MVP graph testing.
+A051,VPN-51,CVE-2021-96702,Medium,4.8,False,Synthetic vulnerability record for MVP graph testing.
+A011,DC-11,CVE-2025-64298,Medium,6.1,True,Synthetic vulnerability record for MVP graph testing.
+A011,DC-11,CVE-2024-42800,Medium,4.4,True,Synthetic vulnerability record for MVP graph testing.
+A011,DC-11,CVE-2021-45967,High,7.8,False,Synthetic vulnerability record for MVP graph testing.
+A011,DC-11,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A024,IT-SRV-24,CVE-2023-74380,Medium,6.5,False,Synthetic vulnerability record for MVP graph testing.
+A024,IT-SRV-24,CVE-2022-25430,High,7.8,False,Synthetic vulnerability record for MVP graph testing.
+A062,IT-SRV-62,CVE-2022-59926,High,7.5,False,Synthetic vulnerability record for MVP graph testing.
+A026,OPS-LAPTOP-26,CVE-2021-44228,Critical,10.0,True,Apache Log4j remote code execution vulnerability.
+A026,OPS-LAPTOP-26,CVE-2025-25505,Medium,6.2,False,Synthetic vulnerability record for MVP graph testing.
+A030,ENG-LAPTOP-30,CVE-2023-23397,Critical,9.8,True,Microsoft Outlook privilege escalation vulnerability.
+A080,OPS-SRV-80,CVE-2025-52451,High,7.5,False,Synthetic vulnerability record for MVP graph testing.
+A080,OPS-SRV-80,CVE-2025-23613,High,8.8,False,Synthetic vulnerability record for MVP graph testing.
+A080,OPS-SRV-80,CVE-2025-78354,Medium,4.5,False,Synthetic vulnerability record for MVP graph testing.
+A016,SAL-LAPTOP-16,CVE-2021-44228,Critical,10.0,True,Apache Log4j remote code execution vulnerability.
+A045,SAL-LAPTOP-45,CVE-2022-67954,Medium,6.3,False,Synthetic vulnerability record for MVP graph testing.
+A045,SAL-LAPTOP-45,CVE-2024-25347,Medium,6.9,False,Synthetic vulnerability record for MVP graph testing.
+A015,IT-LAPTOP-15,CVE-2024-38858,Medium,4.8,False,Synthetic vulnerability record for MVP graph testing.
+A015,IT-LAPTOP-15,CVE-2021-48059,Critical,9.6,False,Synthetic vulnerability record for MVP graph testing.
+A072,WEB-72,CVE-2025-67248,High,7.9,False,Synthetic vulnerability record for MVP graph testing.
+A072,WEB-72,CVE-2024-65054,Medium,5.0,False,Synthetic vulnerability record for MVP graph testing.
+A044,IT-LAPTOP-44,CVE-2023-30470,High,7.2,False,Synthetic vulnerability record for MVP graph testing.
+A044,IT-LAPTOP-44,CVE-2024-73053,High,7.0,False,Synthetic vulnerability record for MVP graph testing.
+A053,WEB-53,CVE-2023-72046,High,8.9,True,Synthetic vulnerability record for MVP graph testing.
+A053,WEB-53,CVE-2025-29644,Critical,9.8,True,Synthetic vulnerability record for MVP graph testing.
+A053,WEB-53,CVE-2022-40021,Critical,9.2,True,Synthetic vulnerability record for MVP graph testing.
+A006,SAL-LAPTOP-06,CVE-2021-58549,Critical,9.1,True,Synthetic vulnerability record for MVP graph testing.
+A006,SAL-LAPTOP-06,CVE-2022-97680,High,7.5,False,Synthetic vulnerability record for MVP graph testing.
+A006,SAL-LAPTOP-06,CVE-2024-22755,High,7.6,False,Synthetic vulnerability record for MVP graph testing.
+A042,FILE-42,CVE-2025-46982,High,7.1,False,Synthetic vulnerability record for MVP graph testing.
+A042,FILE-42,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A078,OPS-LAPTOP-78,CVE-2025-90037,High,8.8,False,Synthetic vulnerability record for MVP graph testing.
+A078,OPS-LAPTOP-78,CVE-2024-8770,Critical,9.9,False,Synthetic vulnerability record for MVP graph testing.
+A078,OPS-LAPTOP-78,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A049,DB-49,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A049,DB-49,CVE-2024-65154,Medium,4.8,False,Synthetic vulnerability record for MVP graph testing.
+A079,FIN-LAPTOP-79,CVE-2021-84050,High,8.7,False,Synthetic vulnerability record for MVP graph testing.
+A079,FIN-LAPTOP-79,CVE-2023-92056,Critical,9.5,False,Synthetic vulnerability record for MVP graph testing.
+A079,FIN-LAPTOP-79,CVE-2023-77278,Medium,4.0,False,Synthetic vulnerability record for MVP graph testing.
+A079,FIN-LAPTOP-79,CVE-2024-84209,High,7.9,False,Synthetic vulnerability record for MVP graph testing.
+A052,WEB-52,CVE-2024-29551,Critical,9.7,False,Synthetic vulnerability record for MVP graph testing.
+A061,HR-LAPTOP-61,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A061,HR-LAPTOP-61,CVE-2025-18117,High,7.3,False,Synthetic vulnerability record for MVP graph testing.
+A061,HR-LAPTOP-61,CVE-2021-7021,Medium,4.6,False,Synthetic vulnerability record for MVP graph testing.
+A061,HR-LAPTOP-61,CVE-2021-21707,Medium,6.6,True,Synthetic vulnerability record for MVP graph testing.
+A070,FIN-SRV-70,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A070,FIN-SRV-70,CVE-2023-21837,Critical,9.2,False,Synthetic vulnerability record for MVP graph testing.
+A070,FIN-SRV-70,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A070,FIN-SRV-70,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A057,EXE-LAPTOP-57,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A057,EXE-LAPTOP-57,CVE-2022-57260,High,7.9,False,Synthetic vulnerability record for MVP graph testing.
+A036,WEB-36,CVE-2021-44228,Critical,10.0,True,Apache Log4j remote code execution vulnerability.
+A071,OPS-LAPTOP-71,CVE-2025-90126,Medium,6.6,True,Synthetic vulnerability record for MVP graph testing.
+A071,OPS-LAPTOP-71,CVE-2021-56353,High,8.1,False,Synthetic vulnerability record for MVP graph testing.
+A004,FIN-SRV-04,CVE-2021-14526,Medium,5.8,False,Synthetic vulnerability record for MVP graph testing.
+A004,FIN-SRV-04,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A001,SAL-LAPTOP-01,CVE-2024-6387,High,8.1,False,OpenSSH regreSSHion vulnerability.
+A001,SAL-LAPTOP-01,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A064,ENG-LAPTOP-64,CVE-2022-83323,High,8.4,False,Synthetic vulnerability record for MVP graph testing.
+A064,ENG-LAPTOP-64,CVE-2024-29474,Medium,4.5,True,Synthetic vulnerability record for MVP graph testing.
+A064,ENG-LAPTOP-64,CVE-2025-96683,Medium,6.3,False,Synthetic vulnerability record for MVP graph testing.
+A064,ENG-LAPTOP-64,CVE-2022-33477,Medium,5.6,True,Synthetic vulnerability record for MVP graph testing.
+A047,HR-LAPTOP-47,CVE-2021-87298,Critical,9.2,False,Synthetic vulnerability record for MVP graph testing.
+A047,HR-LAPTOP-47,CVE-2022-99021,Medium,6.3,False,Synthetic vulnerability record for MVP graph testing.
+A047,HR-LAPTOP-47,CVE-2022-65865,Medium,6.3,False,Synthetic vulnerability record for MVP graph testing.
+A032,DB-32,CVE-2021-48329,Critical,9.5,False,Synthetic vulnerability record for MVP graph testing.
+A028,WEB-28,CVE-2022-62736,Critical,9.6,False,Synthetic vulnerability record for MVP graph testing.
+A028,WEB-28,CVE-2021-44228,Critical,10.0,True,Apache Log4j remote code execution vulnerability.
+A028,WEB-28,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A028,WEB-28,CVE-2021-44228,Critical,10.0,True,Apache Log4j remote code execution vulnerability.
+A022,WEB-22,CVE-2025-55451,Medium,6.5,False,Synthetic vulnerability record for MVP graph testing.
+A022,WEB-22,CVE-2025-81746,Medium,4.9,True,Synthetic vulnerability record for MVP graph testing.
+A022,WEB-22,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A022,WEB-22,CVE-2022-71305,Medium,5.9,False,Synthetic vulnerability record for MVP graph testing.
+A007,FIN-LAPTOP-07,CVE-2024-96677,Critical,9.6,False,Synthetic vulnerability record for MVP graph testing.
+A048,FIN-LAPTOP-48,CVE-2023-23397,Critical,9.8,True,Microsoft Outlook privilege escalation vulnerability.
+A048,FIN-LAPTOP-48,CVE-2024-6387,High,8.1,False,OpenSSH regreSSHion vulnerability.
+A077,OPS-LAPTOP-77,CVE-2022-16655,Medium,4.1,False,Synthetic vulnerability record for MVP graph testing.
+A034,OPS-LAPTOP-34,CVE-2024-3094,High,8.8,False,XZ Utils backdoor supply chain vulnerability.
+A029,OPS-SRV-29,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A029,OPS-SRV-29,CVE-2023-97067,Critical,9.2,False,Synthetic vulnerability record for MVP graph testing.
+A029,OPS-SRV-29,CVE-2023-23397,Critical,9.8,True,Microsoft Outlook privilege escalation vulnerability.
+A043,OPS-LAPTOP-43,CVE-2023-94365,Critical,9.8,False,Synthetic vulnerability record for MVP graph testing.
+A043,OPS-LAPTOP-43,CVE-2025-48202,Medium,4.3,False,Synthetic vulnerability record for MVP graph testing.
+A043,OPS-LAPTOP-43,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A076,HR-LAPTOP-76,CVE-2025-89358,High,8.3,False,Synthetic vulnerability record for MVP graph testing.
+A076,HR-LAPTOP-76,CVE-2021-2610,Medium,5.4,False,Synthetic vulnerability record for MVP graph testing.
+A076,HR-LAPTOP-76,CVE-2022-24456,Critical,9.5,False,Synthetic vulnerability record for MVP graph testing.
+A019,IT-LAPTOP-19,CVE-2023-34362,Critical,9.8,True,MOVEit Transfer SQL injection vulnerability.
+A019,IT-LAPTOP-19,CVE-2023-36554,High,8.9,False,Synthetic vulnerability record for MVP graph testing.
+A019,IT-LAPTOP-19,CVE-2021-44228,Critical,10.0,True,Apache Log4j remote code execution vulnerability.
+A019,IT-LAPTOP-19,CVE-2024-6387,High,8.1,False,OpenSSH regreSSHion vulnerability.
+A058,ENG-SRV-58,CVE-2021-61960,Critical,9.1,False,Synthetic vulnerability record for MVP graph testing.

@@ -1,0 +1,61 @@
+indicator,indicator_type,reputation,confidence,source,malware_family
+185.211.180.28,ip,malicious,Medium,abuse.ch-demo,Emotet
+185.107.224.10,ip,malicious,Medium,OTX-demo,Emotet
+185.229.121.57,ip,malicious,High,OTX-demo,Cobalt Strike
+185.61.210.236,ip,malicious,Medium,abuse.ch-demo,Cobalt Strike
+185.127.90.79,ip,malicious,Medium,FeodoTracker-demo,QakBot
+185.220.204.224,ip,malicious,Medium,OTX-demo,DarkGate
+185.68.58.7,ip,malicious,Medium,abuse.ch-demo,AsyncRAT
+185.178.50.103,ip,malicious,High,abuse.ch-demo,LockBit
+185.94.72.222,ip,malicious,High,OTX-demo,AsyncRAT
+185.27.248.198,ip,malicious,High,abuse.ch-demo,RedLine
+185.81.90.165,ip,malicious,Medium,OTX-demo,AsyncRAT
+185.140.103.174,ip,malicious,Medium,FeodoTracker-demo,RedLine
+185.225.138.85,ip,malicious,High,abuse.ch-demo,AsyncRAT
+185.250.8.30,ip,malicious,Medium,OTX-demo,Cobalt Strike
+185.234.249.67,ip,malicious,High,OTX-demo,QakBot
+185.55.149.247,ip,malicious,Medium,FeodoTracker-demo,Cobalt Strike
+185.77.10.28,ip,malicious,High,OTX-demo,RedLine
+185.162.112.89,ip,malicious,High,FeodoTracker-demo,DarkGate
+185.196.202.81,ip,malicious,High,FeodoTracker-demo,DarkGate
+185.121.156.252,ip,malicious,High,abuse.ch-demo,LockBit
+185.140.30.99,ip,malicious,Medium,FeodoTracker-demo,LockBit
+185.240.148.49,ip,malicious,Medium,FeodoTracker-demo,Emotet
+185.75.12.182,ip,malicious,High,FeodoTracker-demo,AsyncRAT
+185.121.1.134,ip,malicious,Medium,FeodoTracker-demo,DarkGate
+185.246.207.138,ip,malicious,High,abuse.ch-demo,RedLine
+login-97.example-malicious.net,domain,malicious,Medium,PhishTank-demo,LockBit
+secure-95.example-malicious.net,domain,malicious,High,URLhaus-demo,AsyncRAT
+invoice-35.example-malicious.net,domain,malicious,Medium,URLhaus-demo,RedLine
+update-56.example-malicious.net,domain,malicious,High,OTX-demo,AsyncRAT
+cdn-65.example-malicious.net,domain,malicious,Medium,URLhaus-demo,DarkGate
+portal-18.example-malicious.net,domain,malicious,Medium,PhishTank-demo,DarkGate
+files-95.example-malicious.net,domain,malicious,High,PhishTank-demo,Emotet
+auth-52.example-malicious.net,domain,malicious,Medium,URLhaus-demo,Cobalt Strike
+download-89.example-malicious.net,domain,malicious,Medium,OTX-demo,LockBit
+payroll-50.example-malicious.net,domain,malicious,High,URLhaus-demo,Cobalt Strike
+4b824f52d405c307ed63f1426954e43b9de6ca936183500c58786d65128bc122,hash,malicious,Medium,OTX-demo,DarkGate
+f6178081c7167e61d15df8bc0cd0f1a7069a8319e08725681e104657892834b0,hash,malicious,High,OTX-demo,QakBot
+7cef1f8e90715a9db9aad73d1b91ef3956ce383809d37d5e4663a24b4a010f81,hash,malicious,High,OTX-demo,RedLine
+cc24386173fd8e1634f1f1fee3822dd02d151ae0d4f2f92f1ed5f595d5e36397,hash,malicious,High,OTX-demo,AsyncRAT
+efe5caae946bae1f9e7bb134c69bd2033608e303a9b64ebd2c051aee7bde636d,hash,malicious,High,OTX-demo,Emotet
+bdceca637811e0e213853ad473a6736c21e907910fbc01406abeb677a71a2311,hash,malicious,High,OTX-demo,DarkGate
+aece81a465ea0d7b94c8e50111cd35cb67f6ea5734711f60879d070f180964c9,hash,malicious,High,OTX-demo,QakBot
+c9fb7b8ac79b6e30bf42948123d4edb965bceafaf0d04cc30413d41481e2b99e,hash,malicious,Medium,MalwareBazaar-demo,Cobalt Strike
+951e97b0fe5a70a76985786d6dde664cb4a6afc8f0d68f2ec899e761b6d44072,hash,malicious,Medium,MalwareBazaar-demo,RedLine
+b0ebf5e04f4139f344154baa9bd20f9523584739e5d1df9f84ae997bd49af96d,hash,malicious,High,OTX-demo,DarkGate
+7237d663e9926b7cf63aec0bb1f31d3584e4a970b518fcc33503e206b4827080,hash,malicious,Medium,OTX-demo,DarkGate
+705ffe941bb05fca92407908aeeb2c17f2bed026342345ae68fcc4b59b201cef,hash,malicious,High,MalwareBazaar-demo,QakBot
+938c6ab1030d2fb432ed9ad966eb10c2d24f0501bf004e09c915f0b00b75d6b4,hash,malicious,High,OTX-demo,LockBit
+2d6f94cbecc6b941334849f9f11463fb1afe49b30395a83d3291679b4a5923f8,hash,malicious,High,OTX-demo,QakBot
+064a4ff20e793cb48e44c5b24fc5998b42ae9f6d9ce622524833cc5385af5936,hash,malicious,Medium,OTX-demo,DarkGate
+6dd968d4316620cd37a1f852bbc127b878800f0bdfb5fca8176138adc9306dbd,hash,malicious,Medium,OTX-demo,DarkGate
+43b712435eaf3c42f9262a7a0f5fbd4b36cff47491cc59ad68fe071a4e7a4e60,hash,malicious,Medium,MalwareBazaar-demo,LockBit
+019fc5f6eb009cebfe15c11583046a4025ca741cd4f9ac1f1bcffe9ac28b65d3,hash,malicious,Medium,MalwareBazaar-demo,LockBit
+59dcbc59699452eec55cfd96d1f319c8b051003cfb12c7236c2772ec8d92ebd9,hash,malicious,Medium,OTX-demo,DarkGate
+e43b433c38f8a7b96ed33a824ed6015c01fc7f9f062bdb1ca97098785dc9181b,hash,malicious,Medium,MalwareBazaar-demo,Cobalt Strike
+01d3ae374eabcef0aa2fe012733cbf92fc30aa562c8c8f037322131afb0e8743,hash,malicious,Medium,MalwareBazaar-demo,DarkGate
+e493da125607d35d100d2317552291091224746e19ee9965511285e3280f6ca9,hash,malicious,High,OTX-demo,Emotet
+b845d7e2eb5da8ddbf14c99c48146eea64d57a8078a76c57eae38f1428c2e6f5,hash,malicious,High,OTX-demo,Emotet
+45afe4d3400f0b918a01ef33efd41c4886549fd9119f58667643622f8b78d2c7,hash,malicious,Medium,OTX-demo,Emotet
+145181ac0324eaeadb052a891ecc459f8180b97c7b90c97691500d1cd86a4388,hash,malicious,Medium,OTX-demo,AsyncRAT

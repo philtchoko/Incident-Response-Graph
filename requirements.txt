@@ -1,0 +1,15 @@
+# Core data processing
+pandas>=3.0.3
+numpy>=2.5.1
+
+# Graph construction and analysis
+networkx>=3.4
+
+# Visualization (future dashboard support)
+matplotlib>=3.9
+
+# Testing
+pytest>=8.0
+
+# Optional graph visualization during development
+pyvis>=0.3.2
