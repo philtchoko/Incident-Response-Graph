@@ -1,5 +1,7 @@
 """
 Normalize indicators of compromise and general values.
+*For future enterprise data integration*
+
 """
 
 import pandas as pd

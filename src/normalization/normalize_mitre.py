@@ -1,5 +1,6 @@
 """
 Normalize MITRE ATT&CK technique values.
+*For future enterprise data integration*
 """
 
 import pandas as pd

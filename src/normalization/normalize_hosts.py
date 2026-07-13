@@ -1,5 +1,6 @@
 """
 Normalize host and asset names.
+*For future enterprise data integration*
 """
 
 import pandas as pd

@@ -1,7 +1,7 @@
 """
 run_pipeline.py
 
-Runs the complete Incident Knowledge Graph pipeline.
+Runs the complete Incident Knowledge Graph MVP pipeline.
 """
 
 from pathlib import Path
@@ -10,12 +10,23 @@ from src.ingestion.csv_loader import load_and_normalize
 from src.extraction.extract_entities import extract_entities
 from src.extraction.create_relationships import create_relationships
 
-from src.graph.build_graph import build_graph, get_graph_summary, save_graph_html, get_local_subgraph
+from src.graph.build_graph import (
+    build_graph,
+    get_graph_summary,
+    save_graph_html,
+    get_local_subgraph,
+)
 
 from src.analytics.centrality import summarize_centrality
+from src.analytics.recurring_entities import (
+    get_recurring_entities,
+    get_entities_connected_to_multiple_incidents,
+)
+from src.analytics.similar_incidents import find_all_similar_incident_pairs
+from src.analytics.recommendations import generate_recommendation_table
+
 
 def main():
-
     data_dir = Path("data/raw")
     processed_dir = Path("data/processed")
     output_dir = Path("output")
@@ -32,79 +43,116 @@ def main():
     print("Creating relationships...")
     relationships = create_relationships(datasets)
 
-    print("Saving processed CSVs...")
-
     entities_path = processed_dir / "entities.csv"
     relationships_path = processed_dir / "relationships.csv"
 
+    print("Saving processed files...")
     entities.to_csv(entities_path, index=False)
     relationships.to_csv(relationships_path, index=False)
 
-    print("Building NetworkX graph...")
-
-    graph = build_graph(
-        entities_df=entities,
-        relationships_df=relationships,
-    )
-
+    print("Building graph...")
+    graph = build_graph(entities, relationships)
     summary = get_graph_summary(graph)
 
     print("\n========== GRAPH SUMMARY ==========")
     print(f"Nodes: {summary['nodes']}")
     print(f"Edges: {summary['edges']}")
 
-    print("\nNode Types")
-    for node_type, count in summary["node_type_counts"].items():
-        print(f"  {node_type}: {count}")
+    print("\nRunning analytics...")
+    centrality_summary = summarize_centrality(graph, top_n=10)
 
-    print("\nRelationship Types")
-    for rel, count in summary["relationship_type_counts"].items():
-        print(f"  {rel}: {count}")
+    centrality_summary["top_degree"].to_csv(
+        output_dir / "top_degree_entities.csv",
+        index=False,
+    )
 
-    print("\nSaving interactive graph...")
+    centrality_summary["top_betweenness"].to_csv(
+        output_dir / "top_betweenness_entities.csv",
+        index=False,
+    )
+
+    centrality_summary["top_assets"].to_csv(
+        output_dir / "top_assets.csv",
+        index=False,
+    )
+
+    centrality_summary["top_mitre_techniques"].to_csv(
+        output_dir / "top_mitre_techniques.csv",
+        index=False,
+    )
+
+    get_recurring_entities(graph, min_degree=2).to_csv(
+        output_dir / "recurring_entities.csv",
+        index=False,
+    )
+
+    get_entities_connected_to_multiple_incidents(
+        graph,
+        min_incidents=2,
+    ).to_csv(
+        output_dir / "entities_connected_to_multiple_incidents.csv",
+        index=False,
+    )
+
+    find_all_similar_incident_pairs(
+        graph,
+        min_similarity=0.2,
+        radius=2,
+    ).to_csv(
+        output_dir / "similar_incidents.csv",
+        index=False,
+    )
+
+    top_entities = (
+        centrality_summary["top_degree"]["entity_id"]
+        .head(10)
+        .tolist()
+    )
+
+    generate_recommendation_table(
+        graph,
+        top_entities,
+    ).to_csv(
+        output_dir / "recommendations.csv",
+        index=False,
+    )
+
+    print("Saving dashboard graph visualization...")
+
+    # Pick a useful default graph center:
+    # first incident if available, otherwise first entity.
+    incident_entities = entities[entities["entity_type"] == "Incident"]
+
+    if not incident_entities.empty:
+        center_node = incident_entities.iloc[0]["entity_id"]
+    else:
+        center_node = entities.iloc[0]["entity_id"]
 
     local_graph = get_local_subgraph(
         graph,
-        center_node="incident:INC-0001",
+        center_node=center_node,
         radius=2,
     )
 
     save_graph_html(
         local_graph,
-        output_dir / "local_incident_graph.html",
-    )
-
-    save_graph_html(
-        graph,
         output_dir / "incident_graph.html",
     )
 
-    print("\nPipeline complete!")
+    print("\nPipeline complete.")
+    print("\nDashboard-ready files generated:")
+    print(f"- {entities_path}")
+    print(f"- {relationships_path}")
+    print(f"- {output_dir / 'incident_graph.html'}")
+    print(f"- {output_dir / 'top_degree_entities.csv'}")
+    print(f"- {output_dir / 'top_betweenness_entities.csv'}")
+    print(f"- {output_dir / 'recurring_entities.csv'}")
+    print(f"- {output_dir / 'similar_incidents.csv'}")
+    print(f"- {output_dir / 'recommendations.csv'}")
 
-    print(f"\nEntities saved to:")
-    print(entities_path)
+    print("\nLaunch dashboard with:")
+    print("streamlit run src/dashboard/app.py")
 
-    print(f"\nRelationships saved to:")
-    print(relationships_path)
-
-    print(f"\nGraph saved to:")
-    print(output_dir / "incident_graph.html")
-
-    print(f"\nLocal graph saved to:")
-    print(output_dir / "local_incident_graph.html" )
-
-    centrality_summary = summarize_centrality(graph, top_n=10)
-
-    print("\nTop connected entities:")
-    print(centrality_summary["top_degree"])
-
-    print("\nTop bridge entities:")
-    print(centrality_summary["top_betweenness"])
-
-    centrality_summary["top_degree"].to_csv(
-    output_dir / "top_central_entities.csv",
-    index=False,
-    )   
 
 if __name__ == "__main__":
     main()
