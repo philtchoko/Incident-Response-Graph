@@ -214,7 +214,7 @@ pip install -r requirements.txt
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your_username>/incident-knowledge-graph.git
+git clone https://github.com/philtchoko/incident-knowledge-graph.git
 
 cd incident-knowledge-graph
 ```
